@@ -1,0 +1,5 @@
+#: A writing-rule is one atom of the house writing voice.
+#: A selected profile injects the rules it references at session start. Other rules can be read on demand.
+#: The filename is the identity and the move. The markdown body is the rule. A writing-rule is read, never routed, so it carries no name or description field to be chosen by.
+#: Author to the craft. One move, the title IS the move. State what stands, not what changes. Close on a "To check, ..." self-test where a runnable check fits. Name a mechanism in backticks, not a body wikilink.
+fields: {}

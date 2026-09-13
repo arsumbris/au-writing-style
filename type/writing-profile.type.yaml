@@ -1,0 +1,17 @@
+#: A writing-profile is a named voice, a typed selection over the writing-rules it bundles.
+#: It references its rules, never copies them. The agent-profile idiom, applied to the voice.
+#: Every profile selects at least one rule explicitly. There is no implicit full-house selection.
+#: Supply rules in frontmatter or through body contributions. A null rules: anchor needs a body fill.
+#: A profile activates by mixing in mcp.inject at depth 1, and an inject needs a body. So a profile is a `.md` note, and its body is the stance, the priming the injected rules land under.
+fields:
+  #: One or more writing-rule references, in apply order. Frontmatter and body contributions fill one list.
+  rules: writing-rule*[+]
+body:
+  - section?: the voice
+    guidance: |
+      The stance, the priming the injected rules land under.
+      Write a short frame, a handful of lines, in the voice itself.
+      State the north star, and who the reader is.
+      Give the escape hatch, the rules are defaults, not laws.
+      Point at the rules as the examples and the standard, then stop.
+      Do not restate the rules, they carry the moves.

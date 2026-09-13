@@ -1,0 +1,7 @@
+# Schema au.engine.repo — au-writing-style's committed identity and intrinsic type-deps.
+# deps is INTRINSIC type-vocabulary only, never the framework (that is workspace.yaml discover:).
+type: au.engine.repo::au-engine
+name: au-writing-style
+description: the house writing voice as its own package. one always-on priming inject over a set of pulled writing rules, the overridable style layer split out of au-rules so the medium matches the message
+deps:
+  - name: au-mcp-sdk   # mcp.inject, for the single priming inject, the one always-on slot
